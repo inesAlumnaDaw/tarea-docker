@@ -27,5 +27,10 @@ Crear un contenedor demonio a partir de la imagen `nginx`, el contenedor se debe
 
 <img src="Ejercicio%20inicial.assets/image-20220309161929825.png" alt="image-20220309161929825" style="zoom:67%;" />
 
-1. Pantallazo donde se vean las imágenes que tienes en tu registro local.
-2. Pantallazo donde se vea cómo se elimina el contenedor (recuerda que antes debe estar parado el contenedor).
+> Vemos, a modo de ejemplo, cómo está el repositorio con las dos ramas:
+
+<img src="Ejercicio%20inicial.assets/image-20220309162242419.png" alt="image-20220309162242419" style="zoom:50%;" />
+
+3. Pantallazo donde se vean las imágenes que tienes en tu registro local.
+
+1. Pantallazo donde se vea cómo se elimina el contenedor (recuerda que antes debe estar parado el contenedor).
