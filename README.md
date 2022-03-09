@@ -2,6 +2,8 @@
 
 > Ejemplo de resolución de tarea. Realizado por Inés Menéndez
 
+- Se pueden consultar el enunciado y la solución del ejercicio en la carpeta 'inicial'
+
 En el fichero .pdf que hay que subir al aula virtual, debe aparecer:
 
 - Nombre del autor/a
