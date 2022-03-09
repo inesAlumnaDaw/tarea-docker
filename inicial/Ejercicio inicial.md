@@ -1,3 +1,8 @@
+---
+author: Inés Menéndez
+title: ejemplo de ejercicio Git-Docker
+---
+
 # Resolución del ejercicio inicial
 
 > Realizado por Inés Menéndez
@@ -45,7 +50,7 @@ docker images
 
 3. Pantallazo donde se vea cómo se elimina el contenedor (recuerda que antes debe estar parado el contenedor).
 
-   Para resolver esta cuestión, creamos un contenedor que expone el puerto 80 al puerto 8181 de nuestro cliente, vemos que está 'corriendo'-UP, lo paramos, vemos que se ha parado y lo borramos
+   Para resolver esta cuestión, creamos un contenedor que expone el puerto 80 al puerto 8181 de nuestro cliente, vemos que está 'corriendo'-UP, lo paramos, vemos que se ha parado, lo borramos y comprobamos que se ha borrado
 
 ```bash
 docker run -d -p 8181:80 --name servidor-web nginx
