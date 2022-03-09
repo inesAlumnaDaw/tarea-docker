@@ -33,4 +33,10 @@ Crear un contenedor demonio a partir de la imagen `nginx`, el contenedor se debe
 
 3. Pantallazo donde se vean las imágenes que tienes en tu registro local.
 
-1. Pantallazo donde se vea cómo se elimina el contenedor (recuerda que antes debe estar parado el contenedor).
+```bash
+docker images
+```
+
+<img src="Ejercicio%20inicial.assets/image-20220309173417360.png" alt="image-20220309173417360" style="zoom:80%;" />
+
+3. Pantallazo donde se vea cómo se elimina el contenedor (recuerda que antes debe estar parado el contenedor).
