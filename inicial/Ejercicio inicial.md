@@ -15,8 +15,17 @@ Crear un contenedor demonio a partir de la imagen `nginx`, el contenedor se debe
 
    <img src="Ejercicio%20inicial.assets/image-20220309161117043.png" alt="image-20220309161117043" style="zoom:80%;" />
 
+   > Se muestra a modo de ejemplo cómo va avanzando el repositorio 
+   >
+   > Fijarse en que se ha utilizado una rama **c1** para resolver la primera cuestión, y una vez finalizado se fusionó con 'main'
+   >
+   > -- NO es necesario documentarlo
+
+   ![image-20220309161645365](Ejercicio%20inicial.assets/image-20220309161645365.png)
+
 2. Pantallazo donde se vea el acceso al servidor web utilizando un navegador web (recuerda que tienes que acceder a la ip del ordenador donde tengas instalado docker)
 
-3. Pantallazo donde se vean las imágenes que tienes en tu registro local.
+<img src="Ejercicio%20inicial.assets/image-20220309161929825.png" alt="image-20220309161929825" style="zoom:67%;" />
 
-4. Pantallazo donde se vea cómo se elimina el contenedor (recuerda que antes debe estar parado el contenedor).
+1. Pantallazo donde se vean las imágenes que tienes en tu registro local.
+2. Pantallazo donde se vea cómo se elimina el contenedor (recuerda que antes debe estar parado el contenedor).
