@@ -39,4 +39,20 @@ docker images
 
 <img src="Ejercicio%20inicial.assets/image-20220309173417360.png" alt="image-20220309173417360" style="zoom:80%;" />
 
+> Se muestra cómo vamos actualizando el repositorio, utilizando ramas y subiendo los cambios al remoto -- NO es necesario documentar esto en la tarea, se muestra como orientación...
+
+<img src="Ejercicio%20inicial.assets/image-20220309173847256.png" alt="image-20220309173847256" style="zoom:60%;" />
+
 3. Pantallazo donde se vea cómo se elimina el contenedor (recuerda que antes debe estar parado el contenedor).
+
+   Para resolver esta cuestión, creamos un contenedor que expone el puerto 80 al puerto 8181 de nuestro cliente, vemos que está 'corriendo'-UP, lo paramos, vemos que se ha parado y lo borramos
+
+```bash
+docker run -d -p 8181:80 --name servidor-web nginx
+docker ps
+docker stop servidor-web
+docker ps -a
+docker rm servidor-web
+```
+
+<img src="Ejercicio%20inicial.assets/image-20220309175040912.png" alt="image-20220309175040912" style="zoom:80%;" />
